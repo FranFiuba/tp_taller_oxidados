@@ -19,7 +19,6 @@ fn main() {
             ["append", key, value] => {
                 let command = format!("append {} {}",key,value);
                 
-                println!("hola");
                 stream
                     .write(command.as_bytes())
                     .expect("Failed to write to server");

@@ -2,6 +2,7 @@ mod commands;
 mod database;
 mod server;
 mod logger;
+mod storagevalue;
 
 use server::Server;
 
